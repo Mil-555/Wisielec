@@ -1,0 +1,41 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    margin: 0%;
+    background-color: lawngreen;
+    border-bottom: 5px solid black;
+}
+#nazwa{
+    letter-spacing: 2px;
+    font-size: large;
+    font-weight: 500;
+}
+#znak,#sprawdz{
+    margin: auto;
+    display: flex;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#znak{
+    margin-top: 5px;
+}
+#sprawdz:hover{
+    background-color: darkgray;
+    box-shadow: 3px 3px 3px darkgray;
+}
+#sprawdz:active{
+    background-color: gray;
+    box-shadow: none;
+}
+#losewin{
+    font-size: larger;
+    font-weight: bolder;
+}
